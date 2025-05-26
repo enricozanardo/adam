@@ -1,0 +1,20 @@
+[package]
+name = "adam_test"
+version = "0.1.0"
+edition = "2021"
+authors = ["Wall-E1 Team"]
+description = "Enhanced Adam Optimizer Test"
+default-run = "adam_test"
+
+[dependencies]
+ndarray = "0.15.6"
+ndarray-rand = "0.14.0"
+rand = "0.8.5"
+plotters = "0.3.3"
+thiserror = "1.0.47"
+indicatif = "0.17.5"
+rayon = "1.7.0"
+
+[[bin]]
+name = "generate_plot"
+path = "src/generate_plot.rs" 
